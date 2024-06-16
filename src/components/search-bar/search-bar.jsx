@@ -18,7 +18,7 @@ const SearchBar = () => {
     return (
         <Paper component={'form'}
             onSubmit={submitHandler}
-            sx={{ border: `1px solid ${colors.secondary}`, pl: 2, boxShadow: 'none', mr: 5 }}>
+            sx={{ border: `1px solid ${colors.secondary}`, pl: 2, boxShadow: 'none', mr: 5 }} className='my-form' >
             <input
                 type="text"
                 className='search-bar'

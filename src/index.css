@@ -64,7 +64,19 @@ a {
   .search-bar {
     width: 200px;
   }
+
   .react-player {
     height: 45vh !important;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .my-form {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .search-bar {
+    width: 145px;
   }
 }
